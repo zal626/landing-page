@@ -1,0 +1,31 @@
+:root{
+    --bg-color: #1f2937;
+    --btn-color: #3882f6;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.header, 
+.footer{
+    background-color: var(--bg-color);
+}
+
+.header-top{
+    display: flex;
+}
+.header-top h2{
+    color: #f9faf8;
+    font-size: 24px;
+}
+.nav-links{
+    margin-left: auto;
+}
+a{
+    text-decoration: none;
+}
+.hero-text p,
+a{
+    color: #e5e7eb;
+    font-size: 18px;
+}
