@@ -46,6 +46,7 @@ body{
     width: 500px;
     border: 2px solid;
     border-radius: 5px;
+    background-color: azure;
 }
 h1{
     color: var(--head-color);
@@ -58,4 +59,16 @@ a{
 a{
     color: #e5e7eb;
     font-size: 18px;
+}
+.hero-text p{
+    margin-top: 0;
+    padding: 0;
+}
+button{
+    color: #f9faf8;
+    background-color: var(--btn-color);
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 1em;
 }
