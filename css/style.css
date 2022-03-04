@@ -74,3 +74,52 @@ button{
     padding: 10px 2em;
     margin-top: 1em;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+.title{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 1em;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+.info{
+    max-width: 200px;
+}
+.box{
+    border: 2px #3882f6 solid;
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+}
+.quote{
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    padding: 2em 7em;
+}
+
+.sign-up{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    height: 200px;
+    padding: 2em 3em;
+}
+.sign-up-text{
+
+}
+.sign-up-btn{
+    border: 2px #f9faf8 solid;
+
+}
