@@ -49,21 +49,18 @@ body{
     border-radius: 5px;
     background-color: azure;
 }
-h1{
+.hero-main{
     color: var(--head-color);
     font-size: 48px;
+    font-weight: bolder;
 }
 a{
     text-decoration: none;
 }
-.hero-text p,
+.hero-secondary,
 a{
     color: #e5e7eb;
     font-size: 18px;
-}
-.hero-text p,
-h1{
-    margin: 0 auto;
 }
 button{
     color: #f9faf8;
@@ -106,20 +103,36 @@ main{
     font-size: 36px;
     font-style: italic;
     font-weight: 100;
-    padding: 2em 7em;
+    padding: 2em 6.5em;
 }
-
+.quote-author{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    font-style: normal;
+}
 .sign-up{
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 5px;
     height: 200px;
     padding: 2em 3em;
+    margin: 2em 10%;
 }
 .sign-up-text{
 
 }
+.sign-up-header{
+    font-size: 36px;
+    font-weight: bold;
+}
 .sign-up-btn{
     border: 2px #f9faf8 solid;
 
+}
+.footer{
+    padding: 5em auto;
+    text-align: center;
+    color: #f9faf8;
+    margin-bottom: 0;
 }
