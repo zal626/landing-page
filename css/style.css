@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
 :root{
     --bg-color: #1f2937;
     --btn-color: #3882f6;
-    --fonts: Verdana, Tahoma, Arial, sans-serif;
+    --fonts: Roboto, sans-serif;
     --head-color: #f9faf8;
 }
 body{
     margin: 0;
     padding: 0;
     font-family: var(--fonts);
+    display: flex;
+    flex-direction: column;
 }
 .header, 
 .footer{
@@ -43,11 +46,11 @@ body{
     flex: 0 1 auto;
     padding: 12px 0;
 }
-.hero-img{
+
+.hero-img img{
     width: 500px;
-    border: 2px solid;
-    border-radius: 5px;
-    background-color: azure;
+    height: auto;
+    border-radius: 10px;
 }
 .hero-main{
     color: var(--head-color);
@@ -71,7 +74,7 @@ button{
     padding: 10px 2em;
     margin-top: 1em;
 }
-main{
+.main{
     display: flex;
     flex-direction: column;
     gap: 5em;
@@ -91,9 +94,13 @@ main{
 .info{
     max-width: 200px;
 }
-.box{
+.info p{
+    font-weight: bold;
+    text-align: center;
+}
+.box img{
     border: 2px #3882f6 solid;
-    border-radius: 5px;
+    border-radius: 8px;
     height: 200px;
     width: 200px;
 }
@@ -115,24 +122,24 @@ main{
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 5px;
-    height: 200px;
-    padding: 2em 3em;
-    margin: 2em 10%;
+    height: 150px;
+    margin: 5em 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .sign-up-text{
 
 }
 .sign-up-header{
-    font-size: 36px;
+    font-size: 24px;
     font-weight: bold;
 }
 .sign-up-btn{
     border: 2px #f9faf8 solid;
-
 }
 .footer{
     padding: 5em auto;
     text-align: center;
     color: #f9faf8;
-    margin-bottom: 0;
 }
